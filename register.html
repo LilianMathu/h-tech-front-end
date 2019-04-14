@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>H-Tech</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark primary-color sticky-top">
+        <div class="container-fluid navbar-container">
+            <img class="navbar-brand" id="hiv" src="images/hiv.jpeg" alt="logo">
+        </div>
+    </nav>
+
+    <div class="container">
+            <div class="card">       
+                <div class="modal-content">
+    
+        <div class="modal-body mx-3">
+                <h2 id="reg"></h2>
+            <form name="register" id="regform">
+         <input type="text" name="first_name"  class="form-control mb-4" placeholder="FirstName">
+    
+        <!-- Email -->
+        <input type="text" name="last_name" class="form-control mb-4" placeholder="LastName">
+    
+    
+        <select class="browser-default custom-select mb-4">
+            <option value="" name="username" disabled>Choose Role</option>
+            <option value="1" selected>doctor</option>
+            <option value="2">nurse</option>
+            <option value="3">labtech</option>
+            <option value="4">healhworker</option>
+        </select>
+            <input type="email" name="email" class="form-control mb-4" placeholder="Email Adress">
+    
+        <input type="number"  class="form-control mb-4" placeholder="Phone Number">
+            <input type="password" name="password"  class="form-control mb-4" placeholder="Password">
+    
+    
+              <button name="submit" id="submit">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+<script scr="fetch/register.js"></script>
+
+</body>
+
+</html>
