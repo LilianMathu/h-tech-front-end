@@ -31,53 +31,62 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header text-center">
-                            <h4 class="modal-title w-100 font-weight-bold">Create User</h4>
+                            <h4 class="modal-title w-100 font-weight-bold">Register Patient</h4>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body mx-3">
                             <div class="md-form mb-5">
-                                <i class="fas fa-user prefix grey-text"></i>
+                               
                                 <input type="text" id="orangeForm-name" class="form-control validate">
                                 <label data-error="wrong" data-success="right" for="orangeForm-name">First name</label>
                             </div>
 
                             <div class="md-form mb-5">
-                                <i class="fas fa-user prefix grey-text"></i>
+                               
                                 <input type="text" id="orangeForm-name" class="form-control validate">
                                 <label data-error="wrong" data-success="right" for="orangeForm-name">Last name</label>
                             </div>
 
-                            <form>
-                                <label>Users</label> 
-                                <select class="mdb-select">
-                                    <option value="" disabled>Choose option</option>
-                                    <option value="1" selected>Nurse</option>
-                                    <option value="2">Doctor</option>
-                                    <option value="3">Health worker</option>
-                                </select>
-                            </form>
-
 
                             <div class="md-form mb-5">
-                                <i class="fas fa-envelope prefix grey-text"></i>
+                               
                                 <input type="email" id="orangeForm-email" class="form-control validate">
-                                <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
-                            </div>
-
-                            <div class="md-form mb-4">
-                                <i class="fas fa-lock prefix grey-text"></i>
-                                <input type="password" id="orangeForm-pass" class="form-control validate">
-                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Your
-                                    password</label>
+                                <label data-error="wrong" data-success="right" for="orangeForm-email">Email</label>
                             </div>
 
                             <div class="md-form mb-5">
-                                    <i class="fas fa-phone prefix grey-text"></i>
-                                    <input type="phone" id="orangeForm-pass" class="form-control validate">
-                                    <label data-error="wrong" data-success="right" for="orangeForm-pass">Phone No.</label>
+                                    
+                                    <input type="text" id="orangeForm-name" class="form-control validate">
+                                    <label data-error="wrong" data-success="right" for="orangeForm-name">ID Number</label>
                                 </div>
+
+
+                            <div class="md-form mb-5">
+                                  
+                                    <input type="text" id="orangeForm-name" class="form-control validate">
+                                    <label data-error="wrong" data-success="right" for="orangeForm-phone">Phone Number</label>
+                                </div>
+
+                            <div class="md-form mb-5">
+                                    
+                                    <input type="text" id="orangeForm-name" class="form-control validate">
+                                    <label data-error="wrong" data-success="right" for="orangeForm-age">Age</label>
+                                </div>
+
+                            
+                            <div class="md-form mb-5">
+                                    
+                                    <input type="text" id="orangeForm-name" class="form-control validate">
+                                    <label data-error="wrong" data-success="right" for="orangeForm-name">Weight</label>
+                                </div>
+
+                                <div class="md-form mb-5">
+                                       
+                                        <input type="text" id="orangeForm-name" class="form-control validate">
+                                        <label data-error="wrong" data-success="right" for="orangeForm-name">Location</label>
+                                    </div>
 
                         </div>
                         <div class="modal-footer d-flex justify-content-center">
@@ -93,7 +102,7 @@
 
                 <a href="" class="btn btn-success btn-rounded mb-4" data-toggle="modal"
                     data-target="#modalRegisterForm">
-                    Create user</a>
+                    Register Patient</a>
             </form>
 
 
@@ -105,44 +114,55 @@
                         <th scope="col">#</th>
                         <th scope="col">FirstName</th>
                         <th scope="col">LastName</th>
-                        <th scope="col">Role</th>
-                        <th scope="col">email</th>
-                        <th scope="col">Phone</th>
-                        <th scope="col">Update</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">ID Number</th>
+                        <th scope="col">Phone Number</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Weight</th>
+                        <th scope="col">Location</th>
 
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Esrie</td>
-                        <td>Karis</td>
-                        <td>Health Officer</td>
-                        <td>esriekaris18@yahoo.com</td>
-                        <td>0738387747</td>
+                        <td>Julia</td>
+                        <td>May</td>
+                        <td>julia@gmail.com</td>
+                        <td>32456789</td>
+                        <td>0738077572</td>
+                        <td>30</td>
+                        <td>50 kgs</td>
+                        <td>Lolwe</td>
                         <td>
                             <button type="button" class="btn btn-primary btn-rounded btn-sm m-0">update</button>
                         </td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td>Cedo</td>
-                        <td>Omondi</td>
-                        <td>Doctor</td>
-                        <td>cedOmondi13@gmail.com</td>
-                        <td>0786478324</td>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>johndoe@gmail.com</td>
+                        <td>32345678</td>
+                        <td>0750077572</td>
+                        <td>38</td>
+                        <td>70 kgs</td>
+                        <td>Nyalenda</td>
                         <td>
                             <button type="button" class="btn btn-primary btn-rounded btn-sm m-0">update</button>
                         </td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td>Cecily</td>
-                        <td>Washa</td>
-                        <td>Nurse</td>
-                        <td>washacecily@gmail.com</td>
-                        <td>0745674764</td>
-                        <td></td>
+                        <td>Jane</td>
+                        <td>Doe</td>
+                        <td>jaine@gmail.com</td>
+                        <td>32456789</td>
+                        <td>0738077572</td>
+                        <td>40</td>
+                        <td>52 kgs</td>
+                        <td>Milimani</td>
+                        <td>
                             <button type="button" class="btn btn-primary btn-rounded btn-sm m-0">update</button>
                         </td>
                     </tr>
